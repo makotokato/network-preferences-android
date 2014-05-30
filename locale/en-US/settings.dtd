@@ -1,0 +1,10 @@
+<!ENTITY proxy_type.label "Configure Proxies to Access the Internet">
+<!ENTITY proxy_type2.label "Configure Proxies (1=on, 0=off, 5=system (not work now))">
+<!ENTITY no_proxy.label "No proxy">
+<!ENTITY manual_proxy.label "Manual proxy configuration">
+<!ENTITY auto_proxy.label "Auto-detect proxy settings">
+<!ENTITY system_proxy.label "System proxy configuration">
+<!ENTITY http_proxy.label "HTTP Proxy">
+<!ENTITY ftp_proxy.label "FTP Proxy">
+<!ENTITY ssl_proxy.label "SSL Proxy">
+<!ENTITY port.label "Port">

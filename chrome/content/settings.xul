@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE vbox [
+<!ENTITY % extensionsDTD SYSTEM "chrome://networkpreferences/locale/settings.dtd">
+%extensionsDTD;
+]>
+
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<!--
+  // radio type doesn't work on current version
+
+  <setting pref="network.proxy.type" type="radio" title="&proxy_type.label;">
+    <radiogroup>
+      <radio value="0" lable="&no_proxy.label;" />
+      <radio value="1" lable="&manual_proxy.label;" />
+      <radio value="4" label="&auto_proxy.label;" />
+      <radio value="5" label="&system_proxy.label;" />
+    </radiogroup>
+  </setting>
+-->
+  <setting pref="network.proxy.type" type="integer" on="1" off="0" title="&proxy_type2.label;" />
+  <setting pref="network.proxy.http" type="string" title="&http_proxy.label;" />
+  <setting pref="network.proxy.http_port" type="integer" title="&port.label;" />
+  <setting pref="network.proxy.ftp" type="string" title="&ftp_proxy.label;" />
+  <setting pref="network.proxy.ftp_port" type="integer" title="&port.label;" />
+  <setting pref="network.proxy.ssl" type="string" title="&ssl_proxy.label;" />
+  <setting pref="network.proxy.ssl_port" type="integer" title="&port.label;" />
+</vbox>
